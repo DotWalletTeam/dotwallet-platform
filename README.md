@@ -4,6 +4,8 @@
 
 通过使用打点开放平台，开发者可借助打点平台高效地使用`第三方授权登录`、`小额自动支付`、`下订单`等功能。
 
+Read this in other languages: [_English_](README.en.md)
+
 ## 如何加入打点
 
 用浏览器访问 https://developers.dotwallet.com
