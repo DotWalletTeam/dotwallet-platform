@@ -11,24 +11,26 @@
 * [根据高度批量查看区块信息](#jump9)
 * [获取区块交易列表](#jump10)
 * [获取区块链上的一些信息](#jump11)
-* [获取免费Grandetid](#jump12)
+* [剩余次数查询](#jump12)
+* [免费获取token](#jump13)
+
 ## <span id="jump1">merkle-tree查询</span>
 
 **简要描述：** 
 - 通过txid查询交易的merkle路径
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/merkle`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/merkle`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -72,17 +74,17 @@
 - 通过区块hash获取raw block header
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/raw/hash/blockheader`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/raw/hash/blockheader`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -117,17 +119,17 @@
 - 通过txid查询交易
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/transaction`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/transaction`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -203,23 +205,22 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
-
 ## <span id="jump4">地址信息查询</span>
 **简要描述：** 
 - 通过地址查询地址的交易数量以及余额，只支持p2pkh的地址
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/address/info`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/address/info`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -259,17 +260,17 @@
 - 通过地址查询地址utxo，只支持p2pkh的地址
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/address/utxo`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/address/utxo`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -312,23 +313,22 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
-
 ## <span id="jump6">地址流水查询</span>
 **简要描述：** 
 - 通过地址查询地址流水，只支持p2pkh的地址
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/address/inventory`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/address/inventory`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -376,23 +376,22 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
-
 ## <span id="jump7">根据hash查询区块信息</span>
 **简要描述：** 
 - 根据区块hash查询区块信息
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/block/hash`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/block/hash`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -442,17 +441,17 @@
 - 根据高度查询区块信息
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/block/height`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/block/height`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -497,22 +496,23 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
+
 ## <span id="jump9">根据高度批量查看区块信息</span>
 **简要描述：** 
 - 以高度倒序，批量获取区块
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/blocks/height`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/blocks/height`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -566,23 +566,22 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
-
 ## <span id="jump10">获取区块交易列表</span>
 **简要描述：** 
-- 通过地址查询地址utxo，只支持p2pkh的地址
+- 获取区块交易列表
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/block/hash`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/block/transaction`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
+- GET
 
 **参数：** 
 
@@ -619,25 +618,17 @@
 - 查询区块链的一些信息
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/BSV/block/hash`
+- ` https://www.ddpurse.com/openapi/svdb/BSV/chain/info`
 
 **header 头传递参数**
 
 | 参数名 | 必选 | 类型 |说明|
 | ------ | ------ | ------ |------|
-| Grandetid | 是 | string |token |
+| token | 是 | string |token |
 
 **请求方式：**
 
-- POST
-
-**参数：** 
-
-|参数名|必选|类型|说明|
-|:----    |:---|:----- |-----   |
-| hash | 是 | string | 区块hash |
-| offset | 是 | int | 偏移 |
-| limit | 是 | int | 条目 |
+- GET
 
  **返回示例**
 
@@ -677,12 +668,60 @@
 - 更多返回错误代码请看首页的错误代码描述
 
 
-## <span id="jump12">获取免费Grandetid</span>
+## <span id="jump12">查询剩余次数</span>
 **简要描述：** 
-- 查询区块链的一些信息
+- 查询剩余次数
 
 **请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/token/free`
+- ` https://www.ddpurse.com/openapi/svdb/token/count`
+
+**header 头传递参数**
+
+| 参数名 | 必选 | 类型 |说明|
+| ------ | ------ | ------ |------|
+| token | 是 | string |token |
+
+**请求方式：**
+
+- GET
+
+**返回示例**
+
+```json 
+{
+	"code": 0,
+	"msg": "",
+	"data":1000
+}
+```
+ **返回参数说明** 
+|参数名|类型|说明||
+|:-----  |:-----|----- |----|
+| code| int | 状态码，0 为成功，其他为失败 |
+| msg| string |  错误提示 |
+| data| int | 剩余次数 |
+&emsp;
+|错误码|说明|
+|:-----  |:----     |
+
+- 更多返回错误代码请看首页的错误代码描述
+
+
+## <span id="jump13">获取免费token</span>
+**简要描述：** 
+- 获取免费token
+**请求方式：**
+
+- GET
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+| userid | 是 | string | 用户id |
+
+**请求URL：** 
+- ` https://www.ddpurse.com/openapi/svdb/token/free`
 
  **返回示例**
 
@@ -699,35 +738,6 @@
 | code| int | 状态码，0 为成功，其他为失败 |
 | msg| string |  错误提示 |
 | data| string | token |
-&emsp;
-|错误码|说明|
-|:-----  |:----     |
-
-- 更多返回错误代码请看首页的错误代码描述
-
-
-## <span id="jump13">查询剩余次数</span>
-**简要描述：** 
-- 查询区块链的一些信息
-
-**请求URL：** 
-- ` http://blockexplorerapis.mempool.com:4001/v1/data/token/count`
-
- **返回示例**
-
-```json 
-{
-	"code": 0,
-	"msg": "",
-	"data":1000
-}
-```
- **返回参数说明** 
-|参数名|类型|说明||
-|:-----  |:-----|----- |----|
-| code| int | 状态码，0 为成功，其他为失败 |
-| msg| string |  错误提示 |
-| data| int | 剩余次数 |
 &emsp;
 |错误码|说明|
 |:-----  |:----     |
