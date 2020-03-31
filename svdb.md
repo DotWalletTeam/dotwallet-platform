@@ -714,14 +714,15 @@
 
 - GET
 
-**参数：** 
+**header参数：** 
 
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
-| userid | 是 | string | 用户id |
+| appid | 是 | string | 商家的appid |
+| appsecret | 是 | string | appsecret |
 
 **请求URL：** 
-- ` https://www.ddpurse.com/openapi/svdb/token/free`
+- ` https://www.ddpurse.com/openapi/svdb/token`
 
  **返回示例**
 
