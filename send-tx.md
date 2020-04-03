@@ -23,7 +23,7 @@ Method[`GET`]
 ## <span id="jump2">发送交易Rawtx</span>
 
 Method[`GET`]
->  https://www.ddpurse.com/openapi/mapi/tx
+>  https://www.ddpurse.com/openapi/mapi/tx/{hash}
 
 **header params**
 | param | 是否必须 | 类型 |说明|

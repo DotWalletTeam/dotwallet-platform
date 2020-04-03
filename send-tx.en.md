@@ -23,7 +23,7 @@ please references:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
 ## <span id="jump2">Submit transaction</span>
 
 Method[`GET`]
->  https://www.ddpurse.com/openapi/mapi/tx
+>  https://www.ddpurse.com/openapi/mapi/tx/{hash}
 
 **header params**
 | param | required | Type |Description|
