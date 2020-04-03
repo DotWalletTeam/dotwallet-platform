@@ -25,7 +25,7 @@ Read this in other languages: [_English_](README.en.md)
 - [常见错误码](./服务端-错误码.md)
 - [托管账户数据上链](./托管账户数据上链.md)
 - [非托管账户数据上链](./非托管账户数据上链.md)
-- [go-svdb](./go-svdb.md)
+- [svdb](./svdb.md)
 
 常见错误码：
 
