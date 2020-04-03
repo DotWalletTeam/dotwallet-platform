@@ -9,7 +9,6 @@
 
 ## <span id="jump1">查询Mempool矿池矿工费率</span>
 
-**Brief Description:** 
 Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/feeQuote
 **header params**
