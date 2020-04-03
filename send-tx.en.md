@@ -2,6 +2,7 @@
 Merchant API is an additional service that miners can offer to merchants.
 Dotwallet openplatform developer can obtain free token.
 We currently provide a free trial token:561b756d12572020ea9a104c3441b71790acbbce95a6ddbf7e0630971af9424b
+[Join Telegram developer group](https://t.me/mempool_develepor)
 * [Get fee quote](#jump1)
 * [Submit transaction](#jump2)
 * [Query transaction status](#jump3)
