@@ -368,7 +368,7 @@
 | txid| string | 交易id |
 | height| int | 该交易的高度,-1表示为确认 |
 | value| int | 金额 |
-| sigscript|string | 16进制编码的脚本 |
+| sigscript|string | utxo锁定脚本 |
 &emsp;
 |错误码|说明|
 |:-----  |:----     |
