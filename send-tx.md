@@ -13,12 +13,12 @@ Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/feeQuote
 **header params**
 
-| param | required | Type |Description|
+| param | 是否必须 | 类型 |说明|
 | ------ | ------ | ------ |------|
 | token | YES | string |token |
 
 #### Returns:
-please references:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
+请参考:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
 
 ## <span id="jump2">发送交易Rawtx</span>
 
@@ -26,12 +26,12 @@ Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/tx
 
 **header params**
-| param | required | Type |Description|
+| param | 是否必须 | 类型 |说明|
 | ------ | ------ | ------ |------|
 | token | 是 | string |token |
 
 #### Returns:
-please references:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
+请参考:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
 
 
 ## <span id="jump3">查询交易状态</span>
@@ -39,14 +39,14 @@ Method[`POST`]
 >  https://www.ddpurse.com/openapi/mapi/tx
 
 **header params**
-| param | required | Type |Description|
+| param | 是否必须 | 类型 |说明|
 | ------ | ------ | ------ |------|
 | token | 是 | string |token |
 
 **body params**
-| param         | required | Description                       |
+| 参数         | 是否必须 | 说明                       |
 | ------------ | -------- | -------------------------- |
 | rawtx       | 是       |    交易的raw hex   |
 
  #### Returns:
-please references:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
+请参考:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
