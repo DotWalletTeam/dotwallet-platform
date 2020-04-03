@@ -26,6 +26,7 @@ Read this in other languages: [_English_](README.en.md)
 - [托管账户数据上链](./托管账户数据上链.md)
 - [非托管账户数据上链](./非托管账户数据上链.md)
 - [svdb](./svdb.md)
+- [send-tx](./send-tx.md)
 
 常见错误码：
 
