@@ -7,9 +7,8 @@ We currently provide a free trial token:561b756d12572020ea9a104c3441b71790acbbce
 * [Submit transaction](#jump2)
 * [Query transaction status](#jump3)
 
-## <span id="jump1">todo,查询</span>
+## <span id="jump1">Get fee quote</span>
 
-**Brief Description:** 
 Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/feeQuote
 **header params**
