@@ -4,12 +4,11 @@
 开发者可以通过打点平台授权机制获取token。
 [加入Telegram开发者群组](https://t.me/mempool_develepor) 
 * [查询Mempool矿池矿工费率](#jump1)
-* [发送交易Rawtx](#jump2)
-* [查询交易状态](#jump3)
+* [查询交易状态](#jump2)
+* [发送交易Rawtx](#jump3)
 
 ## <span id="jump1">查询Mempool矿池矿工费率</span>
 
-**Brief Description:** 
 Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/feeQuote
 **header params**
@@ -21,7 +20,7 @@ Method[`GET`]
 #### Returns:
 请参考:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
 
-## <span id="jump2">发送交易Rawtx</span>
+## <span id="jump2">查询交易状态</span>
 
 Method[`GET`]
 >  https://www.ddpurse.com/openapi/mapi/tx/{hash}
@@ -35,7 +34,7 @@ Method[`GET`]
 请参考:`https://github.com/bitcoin-sv-specs/brfc-merchantapi`
 
 
-## <span id="jump3">查询交易状态</span>
+## <span id="jump3">发送交易Rawtx</span>
 Method[`POST`]
 >  https://www.ddpurse.com/openapi/mapi/tx
 

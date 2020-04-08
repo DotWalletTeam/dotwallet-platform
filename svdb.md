@@ -368,7 +368,7 @@
 | txid| string | 交易id |
 | height| int | 该交易的高度,-1表示为确认 |
 | value| int | 金额 |
-| sigscript|string | 16进制编码的脚本 |
+| sigscript|string | utxo锁定脚本 |
 &emsp;
 |错误码|说明|
 |:-----  |:----     |
@@ -519,7 +519,7 @@
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
 | offset | 是 | int | 偏移 |
-| limit | 是 | int | 条目，不超过100 |
+| limit | 是 | int | 条目，最大为100  |
 
  **返回示例**
 
@@ -589,7 +589,7 @@
 |:----    |:---|:----- |-----   |
 | hash | 是 | string | 区块hash |
 | offset | 是 | int | 偏移 |
-| limit | 是 | int | 条目 |
+| limit | 是 | int | 条目，最大为100  |
 
  **返回示例**
 
