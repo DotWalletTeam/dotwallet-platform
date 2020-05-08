@@ -1,5 +1,5 @@
 # svdb
-开发者可以通过打点平台授权机制查询一些相关的链上信息，目前提供免费接口，每日可以查询一万次
+Developers can query some information of BSV chain,currently, we provide a free interface, which can query 10,000 times a day.
 * [Query merkle-tree](#jump1)
 * [Query blockheader](#jump2)
 * [Query transaction ](#jump3)
@@ -59,9 +59,9 @@
 | msg| string |  error message |
 | data| json | return data |
 | txs| int | transaction count of block |
-| flags| string | 经过16进制编码的bip37描述的flag，用来配合hash数组计算mekle root |
+| flags| string | The flag described by bip37 is used to calculate the mekle root with the hash array|
 | blockhash| string | block hash |
-| hashes| string数组 | merkle路径上的hash值 |
+| hashes| [string] | merkle path hash |
 
 ## <span id="jump2">BlockHeader query</span>
 
@@ -424,7 +424,7 @@
 
 |param|required|Type|Description|
 |:----    |:---|:----- |-----   |
-| height | YES | int | 区块高度 |
+| height | YES | int |  |
 
  **Returns**
 
